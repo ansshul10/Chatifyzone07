@@ -40,7 +40,7 @@ const io = new Server(server, {
 app.use(express.json({ limit: '10mb' })); // Increased limit for safety
 app.use(cookieParser());
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://chatifyzone07.vercel.app",
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"]
