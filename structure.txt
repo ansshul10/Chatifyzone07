@@ -1,0 +1,59 @@
+ .gitignore
+│   eslint.config.js
+│   index.html
+│   package-lock.json
+│   package.json
+│   postcss.config.js
+│   README.md
+│   tailwind.config.js
+│   vite.config.js
+│
+├───public
+│       vite.svg
+│
+└───src
+    │   App.jsx
+    │   index.css
+    │   main.jsx
+    │
+    ├───api
+    │       axios.js
+    │
+    ├───assets
+    │       react.svg
+    │
+    ├───components
+    │       Navbar.jsx
+    │
+    ├───context
+    │       SocketContext.jsx
+    │       UserContext.jsx
+    │
+    └───pages
+            ChatPage.jsx
+            LoginPage.jsx
+            RegisterPage.jsx
+            ProfilePage.jsx
+
+SERVER
+
+   .env
+│   index.js
+│   package-lock.json
+│   package.json
+│   
+├───controllers
+│       authController.js
+│       chatController.js
+│
+│   
+├───middleware
+│       authMiddleware.js
+│
+│
+├───models
+│       Message.js
+│       User.js
+│
+└───routes
+        authRoutes.js
