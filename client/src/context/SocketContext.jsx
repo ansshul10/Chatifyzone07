@@ -25,7 +25,7 @@ export const SocketContextProvider = ({ children }) => {
 
     console.log(`[Socket] Creating new connection for user: ${userId}`);
 
-    const newSocket = io("http://localhost:5000", {
+    const newSocket = io("https://chatifyzone07.vercel.app", {
       withCredentials: true,
       transports: ["websocket", "polling"],
       reconnection: true,
